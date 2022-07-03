@@ -1,0 +1,171 @@
+img{
+    max-width:100%;
+}
+
+img{
+    max-width:100%;
+}
+
+.header{
+    background:yellowgreen;
+         
+}
+
+.header-logo img{
+    width:120px;
+}
+
+.primary-menu ul{
+    text-align:right;
+    list-style:none;
+   margin-left:0;
+}
+
+.primary-menu ul li{
+    display:inline-block;
+    margin-left:-4px;
+   position:relative;
+}
+
+.primary-menu ul li a{
+    background:#9d6868;
+    color:#ddd;
+    display:block;
+    padding:5px 20px;
+    border-right:1px 
+    solid #ddd;
+    transition:.5s;
+}
+
+.primary-menu ul li:hover>a{
+   background:#9f8686;
+}
+
+.primary-menu ul li ul{
+   position:absolute;
+   left:;
+   top:100%;
+   left:0;
+   border:1px solid ;
+}
+
+.primary-menu ul li ul li{
+   display:block;
+   margin-left:-40px;
+   text-align:center;
+   width:138px;
+}
+
+.primary-menu ul li ul li a{
+   background:grey;
+   border-bottom:1px solid 
+   #ddd;
+   display:block;
+}
+
+.primary-menu ul li ul{
+   visibility:hidden;
+   opacity:0;
+   transition:.5s;
+   transform:scaleY(0);
+   transform-origin:top center;
+}
+
+.primary-menu ul li:hover ul{
+   visibility:visible;
+   opacity:1;
+   transform:scaleY(1);
+}
+
+.banner{
+    background: url(/img/banner.jfif) no-repeat fixed;
+    background-size: cover;
+    padding:120px;
+}
+
+
+
+.banner-text h1{
+    background:green;
+   max-width:250px;
+   margin:auto;
+   margin-bottom:15px;
+   color:#ddd;
+   padding:10px 3px;
+   font-size: 20px;
+   text-align: center;
+}
+
+.banner-text h2{
+   background:#959565;
+   max-width:300px;
+   margin:auto;
+   border-radius:5px;
+   color:#fafafa;
+   padding:10px 0;
+   font-size: 20px;
+   text-align: center;
+}
+
+.about{
+   background:#d2d9df;
+   padding:30px;
+}
+
+.about h2,.about p{
+   text-align:center;
+   font-style:oblique;
+   text-shadow:1px 1px 
+   5px purple;
+}
+
+.about h2{
+   color:#100f10;
+   
+}
+
+.about p{
+   width:520px;
+   margin:auto;
+}
+
+.card span{
+   background:#937b3a !important;
+   display:block;
+   height:50px;
+   width:50px;
+   line-height:50px;
+   font-size:25px;
+   color:white;
+   border-radius:20px 0;
+   margin:auto;
+   margin-bottom:5px;
+}
+
+.card{
+   padding:5px 10px;
+   background:#c3c8ce;
+   margin-top:30px;
+}
+
+.product-right ul{
+   list-style:none;
+}
+
+.product-right ul li{
+   border:1px solid #ddd;
+   margin-bottom:10px;
+   padding:7px;
+}
+.product-right h2{
+   font-style:italic;
+   border-bottom:1px solid grey;
+   display:inline-bloc;
+   margin-bottom:19px;
+}
+
+.product{
+   margin-top:40px;
+   background:#b1b4b7;
+   padding:40px;
+}

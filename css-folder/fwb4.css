@@ -1,0 +1,18 @@
+.about{
+    border:1px solid black;
+}
+
+p{
+    border:1px solid red;
+}
+.container{
+    border:2px solid;
+}
+
+img{
+    max-width: 100%;
+}
+
+.header-logo{
+    width:120px
+}  

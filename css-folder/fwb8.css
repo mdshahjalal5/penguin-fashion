@@ -1,0 +1,157 @@
+ html{
+    scroll-behavior: smooth;
+ }
+img{
+    max-width:100%;
+}
+
+.header{
+    background:
+        #4e661d;
+}
+
+.header-logo img{
+    width:120px;
+}
+
+.primary-menu{
+    text-align:right;
+    list-style:none;
+}
+
+.primary-menu li{
+    display:inline-block;
+    margin-left:-4px;
+    position:relative;
+}
+
+.primary-menu li a{
+    background:#7f4444;
+    padding:5px 25px;
+    border-right:1px 
+    solid #ddd;
+    color:#ddd;
+    
+}
+
+.header ul li:hover> a{
+    background:rosybrown;
+}
+
+.header ul li:hover ul{
+    visibility:visible;
+    opacity:1;
+    transform:scale(1.001);
+}
+
+.header ul li ul{
+    position:absolute;
+    padding-left:0;
+    text-align:center;
+    top:100%;
+    left:0;
+    width:180px;
+    opacity:0;
+    visibility:hidden;
+    transition:.5s;
+    transform:scale(0);
+    transform-origin:top;
+}
+
+.header ul li ul li{
+    display:block;
+}
+
+.header ul li ul li a{
+    background:#8a8815;
+    display:block;
+    border-bottom:1px solid
+    #ddd;
+}
+
+.banner{
+    background: url(/img/banner.jfif);
+    padding:180px;
+    background-size:cover;;
+}
+
+.banner-text{
+    color:white;
+    font-style:italic;
+    
+}
+
+.banner-text h2{
+    background:green;
+    max-width:400px;
+    text-align:center;
+    text-shadow:1px 1px 5px
+    red;
+    border-radius:5px;
+    margin:a;
+}
+
+.banner-text h1{
+    background:grey;
+    display:inline-block;
+    padding:5px 19px;
+    border-radius:5px;
+    text-shadow:1px 1px 
+    11px purple;
+}
+
+.about{
+    background:#b2a2a2;
+}
+
+.card{
+    box-sizing: border-box;
+}
+
+.product-right ul{
+    padding-left:0;
+}
+.product-right ul li{
+    list-style:none;
+    border:1px solid 
+    #ddd;
+    padding:5px 0;
+    margin-bottom:5px;
+    text-align:center;
+      text-shadow:1px 1px 
+    7px purple;
+    color:black;
+}
+
+.product-right h2{
+    border-bottom:1px 
+    solid #ddd;
+    font-style:italic;
+    text-shadow:1px 1px 
+    5px brown;
+    text-align: center;
+}
+
+.footer{
+        background-color: #2c3e50
+}
+
+.footer p{
+    margin-bottom:0;
+}
+
+.footer a{
+    color:#fff;
+    margin-left:15px;
+    display:inline-block;
+}
+.card span{
+    display:inline-block;
+    font-size:35px;
+    color:rgb(23, 21, 21);
+}
+
+.card{
+    text-align: center;
+    background: #dcd0d0;
+}
